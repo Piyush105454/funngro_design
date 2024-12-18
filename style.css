@@ -1,0 +1,307 @@
+html {
+    scroll-behavior: smooth; /* Enable smooth scrolling for anchor links */
+  }
+
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url('bk.avif') ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: scroll;
+    height: 100vh;
+
+}
+.wrap{
+    margin-top: 0;
+    background-size: cover;
+    background-image: url('wrap.jpg');
+    background-repeat: no-repeat;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 50px;
+}
+.word{
+    padding-left: 200PX;
+    padding-top: 10PX;
+    margin-top: 0;
+    font-weight: bold;
+    font-size:larger;
+    font-size: 20px;
+   margin-left: 200px;
+}
+.header{
+    display: flex;
+    background-size: cover;
+    height: 50px;
+}
+.logo{
+   
+  
+    border-radius: 50%;
+}
+.log{
+    border: 5px solid #5fd36e;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    
+    filter: brightness(1.3); 
+    opacity: 0.8;
+    border-radius: 50%;
+    transition: all 0.3s ease-in-out;
+    width: 120px;
+    height: 80px;
+}
+.log:hover {
+    /* On hover, increase brightness further and apply a slight scale effect */
+    filter: brightness(1.5); /* Brightness 150% */
+    transform: scale(1.05); /* Slight zoom effect */
+}
+.btnn{
+    justify-content:space-around;
+    margin-left: 1050px;
+    margin-top: 20px;
+    
+    
+}
+.btn{
+    margin-left: 20px;
+    background-color: #27c06c; /* Blue background */
+    color: white;               /* White text */
+    font-size: 16px;            /* Text size */
+    padding: 12px 25px;         /* Vertical and horizontal padding */
+    border: none;               /* No border */
+    border-radius: 8px;         /* Rounded corners */
+    cursor: pointer;           /* Change cursor to pointer */
+    transition: all 0.3s ease;  /* Smooth transition for hover effect */
+    text-align: center;         /* Center the text inside the button */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    
+    
+    height: 40px;
+    width: 100px;
+}
+.btn:hover {
+    background-color: #2980b9; /* Darker blue when hovered */
+    transform: translateY(-2px); /* Slight lift effect */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Darker shadow */
+}
+
+/* Focus effect (for accessibility) */
+.btn:focus {
+    outline: none; /* Remove the default outline */
+    box-shadow: 0 0 0 3px rgba(52, 152, 219, 0.5); /* Blue focus ring */
+}
+.main{
+    display: flex;
+    
+}
+
+
+.img11
+{
+    height: 300px; /* Set the desired height */
+    border-radius: 10px; /* Makes the image circular */
+    object-position: center;
+    object-fit: cover; 
+    padding-left: 400px;
+    padding-top:300px ;
+    display: flex;
+    width: 200px;  
+
+}
+.butn{
+    
+    background-color: #27c06c; /* Blue background */
+    color: white;               /* White text */
+                /* Text size */
+             /* Vertical and horizontal padding */
+    border: none;               /* No border */
+    border-radius: 8px;         /* Rounded corners */
+    cursor: pointer;           /* Change cursor to pointer */
+    transition: all 0.3s ease;  /* Smooth transition for hover effect */
+    text-align: center;         /* Center the text inside the button */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    
+    
+    height: 40px;
+    width: 100px;
+    margin-left: 450px;
+    
+    margin-top: 10px; /* Space between the image and text */
+    font-size: 16px; /* Font size for the name */
+    font-weight: bold;
+}
+
+
+.img22{
+    
+    position: relative;
+    display: flex;
+    object-fit: cover; 
+    padding-left: 400px;
+    padding-top:310px ;
+    height: 280px;
+    width: 180px; 
+
+
+
+     
+
+}
+.end{
+    
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ended{
+    
+    margin-left: 80px;
+    color: #5fd36e;
+}
+.butn2{
+    background-color: #27c06c; /* Blue background */
+    color: white;               /* White text */
+    border: none;               /* No border */
+    border-radius: 8px;         /* Rounded corners */
+    cursor: pointer;           /* Change cursor to pointer */
+    transition: all 0.3s ease;  /* Smooth transition for hover effect */
+    text-align: center;         /* Center the text inside the button */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    height: 40px;
+    width: 100px;
+    margin-left: 460px;
+    margin-top: 10px; /* Space between the image and text */
+    font-size: 16px; /* Font size for the name */
+    font-weight: bold;
+    
+
+}
+.headline{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-size: cover;
+    height: 50px;
+}
+.name{
+    border-radius: 2px;
+	box-shadow: 
+		inset 0 1px 1px rgba(0,0,0,0.5);
+    font-family: 'Hammersmith One', sans-serif;
+    font-size: 60px;
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 700px;
+    color: #5fd36e;
+    font-size: 70px;
+    font-weight: 600;
+    background-image: linear-gradient(to left, #553c9a, #b393d3);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    text-shadow: 2px 2px 4px rgba(179, 147, 211, 0.1),
+               3px 4px 4px rgba(179, 147, 211, 0.15),
+               4px 6px 4px rgba(179, 147, 211, 0.2),
+               5px 8px 4px rgab(179, 147, 211, 0.25);
+
+
+}
+.name2{
+    font-size: 30px;
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 20px;
+    color: #5fd36e;
+
+}
+.developer{
+    box-sizing: border-box;
+    justify-content: space-around;
+    margin: 50px;
+    
+    
+    position: relative;
+    display: flex;
+    white-space: normal;
+}
+.amit{
+    
+    
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+.amit img{
+
+    
+    height: 580;
+    width:700px;
+}
+section {
+    top: 50px;
+    background-image: url(bk.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    height: 100vh; /* Set height to take up full viewport */
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    text-align: center;
+  }
+  .payal{
+
+    position: relative;
+            width: 500px; /* Set the width of the image */
+            height: auto;
+    margin-top: 45px;
+
+  }
+  .payal h1{
+    padding-top: 20px;
+  }
+  .payal img{
+    width: 600px;
+    height: 450px;
+  }
+  .headed{
+    top: 60px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+.dev{
+    font-family: 'Titillium Web', sans-serif;
+    margin: 0;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #5fd36e;
+    font-weight: 600;
+    background-image: linear-gradient(to left, #553c9a, #b393d3);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    text-shadow: 2px 2px 4px rgba(179, 147, 211, 0.1),
+               3px 4px 4px rgba(179, 147, 211, 0.15),
+               4px 6px 4px rgba(179, 147, 211, 0.2),
+               5px 8px 4px rgab(179, 147, 211, 0.25);
+
+
+}
+.quotes{
+    color: #5fd36e;
+}
+.en{
+    background-image: url(bk.avif);
+}
+.last{
+    color: #5fd36e;
+}
